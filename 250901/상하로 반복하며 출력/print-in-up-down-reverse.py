@@ -7,7 +7,7 @@ for j in range(N):
     if j%2 == 0:
         row.reverse()
     result.append(row)
-for j in range(N):
-    for i in range(N-1,-1,-1):
+for j in range(N-1,-1,-1):
+    for i in range(N):
         print(result[i][j],end = "")
     print()
