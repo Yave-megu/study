@@ -1,0 +1,5 @@
+a,b = map(int,input().split())
+print(f"{a+b}")
+print(f"{a-b}")
+print(f"{int((a)/int(b))}")
+print(f"{a%b}")
